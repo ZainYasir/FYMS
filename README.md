@@ -1,39 +1,33 @@
-# Student Task Submission System
+# 🎓 Student Task Submission System
 
 A web-based system that allows students to upload their tasks, select a supervisor, and get approvals. Supervisors can review tasks and approve or reject them.
 
-## Features
+## 🚀 Features
 
-- **Student Login & Registration**  
-  - Students can register and log in.
-  - Secure authentication system.
+### 🎯 Student Panel
+- 🔐 **Login & Registration**
+- 📂 **Task Uploading** with file selection
+- 📜 **Choose Supervisor** from dropdown
+- 📤 **Submit Tasks** for review
 
-- **Task Uploading**  
-  - Students can upload files related to their tasks.  
-  - Option to select a supervisor.  
+### 🧑‍🏫 Supervisor Panel
+- 🔐 **Secure Login**
+- 📄 **View Submitted Tasks**
+- ✅ **Approve or ❌ Reject Tasks**
 
-- **Supervisor Dashboard**  
-  - Supervisors can view student-submitted tasks.  
-  - Approve or reject tasks.  
+## 🛠️ Tech Stack
 
-- **Admin Panel (Optional Future Feature)**  
-  - Manage students and supervisors.  
+- 🎨 **Frontend:** HTML, CSS
+- 🖥️ **Backend:** PHP (Core PHP, MySQLi)
+- 🗄️ **Database:** MySQL
 
-## Tech Stack
+## ⚙️ Installation
 
-- **Frontend:** HTML, CSS  
-- **Backend:** PHP (Core PHP, MySQLi)  
-- **Database:** MySQL  
+### 📌 Prerequisites
 
-## Installation
-
-### Prerequisites
-
-- Install **XAMPP** or any local server supporting PHP and MySQL.  
+- Install **XAMPP** or any local server supporting PHP and MySQL.
 - Clone this repository to your local machine.
 
-### Steps
 
-1. **Clone the repository**  
-   ```sh
-   git clone https://github.com/yourusername/student-task-system.git
+✨ **Developed by ZAIN YASIR & MALAIKA KOKAB** ✨
+
