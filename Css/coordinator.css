@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cod{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:#fff
+
+}
+.cod-content > div{
+    background: #12192c;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
+    border-radius: 12px;
+    height: 100%;
+}
+.cod-content{
+    
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+    width:90%;
+    height: 90%;
+}
+.cod-wrapper .cod-box{   
+    width:  600px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 250px;
+   
+}
+.cod-box input{
+ align-content: center;
+ width: 100%;
+ height: 100%;
+ background: transparent;
+ border :none;
+ outline: none;
+ border: 1px solid rgba(183,33,255, 2);
+ border-radius: 40px;
+ color: #fff;
+ font-size: 13px;
+ padding: 10px 35px 10px 10px;
+}
+.cod-box input::placeholder {
+    color: #fff;
+    text-align: center;
+    opacity: 70%;
+}
+.cod-btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 250px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color:#fff;
+}
+.cod-btn{
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+.cod-btn:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    border-color: #B721FF;
+    color: #B721FF;
+}
+.cod-head{
+    color: #B721FF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px -1px rgba(181, 20, 187, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(181, 20, 187,0.30);
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease-in-out;
+}
+a:hover{
+    color: #B721FF;
+}
+.cod-para{
+    margin-top: 15px;
+    margin-bottom: 25px ;
+    color: #b3b3b3;
+}
+.cod-para2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    color:#B721FF;
+}

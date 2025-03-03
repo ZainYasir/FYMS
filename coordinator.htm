@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FYMS || Coordinator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Css/coordinator.css">
+    <link rel="stylesheet" href="Css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="cod-wrapper">
+        <div class="cod">
+            <a href="index.htm"><img class="nav" src="pics/home2.png" alt="about image"></a>
+            <div class="cod-content">
+                <div>
+                    <h1 class="cod-head">Welcome Coordinator!</h1>
+                    <p class="cod-para">The coordinator page provides essential administrative functions. It enables the removal of students by their unique ARID number, ensuring smooth management of student records. Additionally, the coordinator can add new supervisors to the system, facilitating the expansion of academic oversight and support. These functionalities empower efficient supervision and maintain organizational integrity within the educational framework.</p>
+                    <form action="php/remove_std.php" method="POST">
+                        <p class="cod-para2">Remove Student</p>
+                        <div class="cod-box">
+                            <input type="text" name="arid_number" placeholder="Enter ARID number (00-arid-000)" required>
+                        </div><br>
+                        <button type="submit" class="cod-btn">Remove Student</button> <button type="submit" class="cod-btn"><a href="add_std.htm">Add Student</a></button>
+                    </form></br>
+                    
+                    <button type="submit" class="cod-btn"><a href="signup_sup.htm">Add Supervisor</a></button>
+                  </br></br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

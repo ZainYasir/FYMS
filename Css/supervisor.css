@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.sup{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    color:#fff
+
+}
+
+.sup-content > div{
+    background: #12192c;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
+    border-radius: 12px;
+    height: 100%;
+}
+.sup-content{
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+    width:90%;
+    height: 90%;
+}
+.sup-wrapper .sup-name{
+    width: 250px;
+    height: 30px;
+    margin: 100px;
+}
+
+.sup-head{
+    color: #B721FF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px -1px rgba(181, 20, 187, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(181, 20, 187,0.30);
+    margin-bottom: 15px;
+}
+.sup-task{
+    color: #d4d4d4;
+    text-transform: uppercase;
+}
+.sup-arid{
+    color: #979399;
+}
+.sup-fname{
+     
+    color: #fff;
+
+}
+/*................................accept  btn...........................*/
+.sup-accpt{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 0.55rem 0;
+    width: 100px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.sup-accpt{
+    background: transparent;
+    border: 2px solid #fff;
+    border-color: #12c238;
+    color:  #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+.sup-accpt:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    border-color: #12c238;
+    color: #12c238;
+}
+/*................................Reject btn...........................*/
+.sup-rej{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 0.55rem 0;
+    width: 100px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color:#fff;
+    margin-bottom: 10px;
+}
+
+.sup-rej{
+    border: 2px solid #fff;
+    border-color: #e0201a;
+    color:  #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+.sup-rej:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    border-color: #e0201a;
+    color: #e0201a;
+}
+/*................................download btn...........................*/
+.sup-down{
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+}
+.sup-down{
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+.sup-down-img{
+    height: 30px;
+}
+.sup-down:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    border-color: #B721FF;
+    color: #B721FF;
+}
+
+/*...........................................................*/
+.line{
+    border-color:#127b83;
+    margin-bottom: 4px;
+    opacity: 50%;
+}
+.para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:xx-large;
+    color: #127c83;
+}
